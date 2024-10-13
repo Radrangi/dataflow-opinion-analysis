@@ -54,8 +54,7 @@
 								</filter>
 							</filters>
 							<transformers>
-								<transformer
-									implementation="org.apache.maven.plugins.shade.resource.ServicesResourceTransformer" />
+								<transformer implementation="org.apache.maven.plugins.shade.resource.ServicesResourceTransformer"/>
 							</transformers>
 						</configuration>
 					</execution>
@@ -87,7 +86,7 @@
 						<id>enforce</id>
 						<configuration>
 							<rules>
-								<dependencyConvergence />
+								<dependencyConvergence/>
 							</rules>
 						</configuration>
 						<goals>
@@ -272,7 +271,7 @@
 		<dependency>
 			<groupId>io.grpc</groupId>
 			<artifactId>grpc-netty</artifactId>
-			<version>1.2.0</version>
+			<version>1.68.0</version>
 			<exclusions>
 				<exclusion>
 					<groupId>com.google.guava</groupId>
